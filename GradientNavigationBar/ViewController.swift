@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.setNavigationBarAppearence()
         // Do any additional setup after loading the view, typically from a nib.
+        removeNavigationBarBackButtonItemTitle()
     }
 
     func setNavigationBarAppearence() {
@@ -60,5 +61,11 @@ extension UINavigationBar {
         updatedFrame.size.height += self.frame.origin.y     // this adjustment is important, otherwise the frame is considered without the status bar height which in turns causes the gradient layer to be calculated wrong
         let gradientLayer = CAGradientLayer(frame: updatedFrame, colors: colors)
         setBackgroundImage(gradientLayer.createGradientImage(), for: .default)
+    }
+}
+
+extension UIViewController {
+    func removeNavigationBarBackButtonItemTitle() {
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: nil, action: nil)
     }
 }

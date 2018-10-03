@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().isTranslucent = false
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
 //        UINavigationBar.appearance().setGradientBackground(colors: [UIColor(red: 30/255, green: 234/255, blue: 191/255, alpha: 1), UIColor(red: 12/255, green: 198/255, blue: 183/255, alpha: 1)])
+        UINavigationBar.appearance().backIndicatorImage = #imageLiteral(resourceName: "backButton")
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = #imageLiteral(resourceName: "backButton")
         return true
     }
 
