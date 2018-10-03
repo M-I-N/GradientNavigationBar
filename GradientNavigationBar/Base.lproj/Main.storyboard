@@ -39,7 +39,7 @@
             </objects>
             <point key="canvasLocation" x="455.19999999999999" y="118.29085457271366"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Second-->
         <scene sceneID="6P8-QM-HnQ">
             <objects>
                 <viewController id="4Ai-lZ-pQU" customClass="SecondViewController" customModule="GradientNavigationBar" customModuleProvider="target" sceneMemberID="viewController">
@@ -62,12 +62,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="st0-XC-Wb7"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Second" id="t4Q-tr-IkM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quq-xt-mEp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1327" y="118"/>
         </scene>
-        <!--Third View Controller-->
+        <!--Third-->
         <scene sceneID="788-H1-fdf">
             <objects>
                 <viewController id="qkQ-gH-dww" customClass="ThirdViewController" customModule="GradientNavigationBar" customModuleProvider="target" sceneMemberID="viewController">
@@ -77,6 +78,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Dfw-pO-5Ws"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Third" id="MbH-5N-rj5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WPk-yS-6Td" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
